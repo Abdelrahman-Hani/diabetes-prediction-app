@@ -25,7 +25,7 @@ from sklearn.metrics import classification_report
 
 from xgboost import XGBClassifier
 
-df = pd.read_csv("/content/diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 df.info()
 
 df.head()
